@@ -1,0 +1,31 @@
+#ProfileInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: var(--White);
+    text-align: center;
+}
+#Avatar{
+   border-radius: 50%;
+   width: 90px;
+}
+#ProfileHeadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+#ProfileInfo h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+#ProfileInfo h3{
+     color: var(--Green);
+     font-size: 0.875rem;
+     font-weight: 700;
+}
+#ProfileInfo p{
+    font-weight: 400;
+}

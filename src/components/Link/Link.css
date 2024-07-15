@@ -1,0 +1,15 @@
+#SocialLinks a{
+    color: var(--White);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.938rem 0;
+    border-radius: .5rem;
+    background-color: var(--Grey);
+    font-weight: 600;
+    transition: all .3s ease;
+}
+#SocialLinks a:hover , a:focus{
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
